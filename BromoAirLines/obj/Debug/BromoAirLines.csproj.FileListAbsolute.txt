@@ -1,0 +1,14 @@
+C:\Users\RPL\source\repos\BromoAirLines\BromoAirLines\bin\Debug\BromoAirLines.exe.config
+C:\Users\RPL\source\repos\BromoAirLines\BromoAirLines\bin\Debug\BromoAirLines.exe
+C:\Users\RPL\source\repos\BromoAirLines\BromoAirLines\bin\Debug\BromoAirLines.pdb
+C:\Users\RPL\source\repos\BromoAirLines\BromoAirLines\obj\Debug\BromoAirLines.csproj.AssemblyReference.cache
+C:\Users\RPL\source\repos\BromoAirLines\BromoAirLines\obj\Debug\BromoAirLines.csproj.SuggestedBindingRedirects.cache
+C:\Users\RPL\source\repos\BromoAirLines\BromoAirLines\obj\Debug\BromoAirLines.LoginForm.resources
+C:\Users\RPL\source\repos\BromoAirLines\BromoAirLines\obj\Debug\BromoAirLines.Properties.Resources.resources
+C:\Users\RPL\source\repos\BromoAirLines\BromoAirLines\obj\Debug\BromoAirLines.csproj.GenerateResource.cache
+C:\Users\RPL\source\repos\BromoAirLines\BromoAirLines\obj\Debug\BromoAirLines.csproj.CoreCompileInputs.cache
+C:\Users\RPL\source\repos\BromoAirLines\BromoAirLines\obj\Debug\BromoAirLines.exe
+C:\Users\RPL\source\repos\BromoAirLines\BromoAirLines\obj\Debug\BromoAirLines.pdb
+C:\Users\RPL\source\repos\BromoAirLines\BromoAirLines\obj\Debug\BromoAirLines.AdminMainForm.resources
+C:\Users\RPL\source\repos\BromoAirLines\BromoAirLines\obj\Debug\BromoAirLines.DaftarAkunForm.resources
+C:\Users\RPL\source\repos\BromoAirLines\BromoAirLines\obj\Debug\BromoAirLines.CustomerMainForm.resources
