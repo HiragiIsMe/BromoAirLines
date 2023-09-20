@@ -49,5 +49,49 @@ namespace BromoAirLines
         {
             timer1.Start();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are You To LogOut?", "Alert", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if(result == DialogResult.OK)
+            {
+                this.Close();
+                LoginForm form = new LoginForm();
+                form.Show();
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MasterBandara form = new MasterBandara()
+            {
+                TopLevel = false,
+                TopMost = true
+            };
+            panelMain.Controls.Clear();
+            panelMain.Controls.Add(form);
+            form.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MasterMaskapai form = new MasterMaskapai()
+            {
+                TopLevel = false,
+                TopMost = true
+            };
+            panelMain.Controls.Clear();
+            panelMain.Controls.Add(form);
+            form.Show();
+        }
+
+        private void AdminMainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are You To Exit?", "Alert", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (result == DialogResult.OK)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

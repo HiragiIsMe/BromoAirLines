@@ -11,7 +11,7 @@ namespace BromoAirLines
 {
     class Connection
     {
-        private static string connection = @"Data Source=DESKTOP-0GM6JSL\SQLEXPRESS;Initial Catalog=BromoAirlines;Integrated Security=True";
+        private static string connection = @"Data Source=HIRAGII\MSSQLSERVER01;Initial Catalog=BromoAirlines;Integrated Security=True";
         
         public static SqlConnection conn = new SqlConnection(connection);
 

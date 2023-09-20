@@ -61,6 +61,7 @@ namespace BromoAirLines
 
                     if (Model.Role == 1)
                     {
+                        Connection.conn.Close();
                         this.Hide();
                         AdminMainForm form = new AdminMainForm();
                         form.Show();
@@ -68,6 +69,7 @@ namespace BromoAirLines
 
                     if (Model.Role == 0)
                     {
+                        Connection.conn.Close();
                         this.Hide();
                         CustomerMainForm form = new CustomerMainForm();
                         form.Show();
@@ -77,6 +79,7 @@ namespace BromoAirLines
                 {
                     MessageBox.Show("Akun Tidak Ditemukan", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+                Connection.conn.Close();
             }
         }
 
